@@ -28,3 +28,15 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: Iquest
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Iquest
+  - action: utter_Find_more
+  - action: utter_Link_Website
+  - action: utter_link_ig
+  - intent: goodbye
+  - action: utter_goodbye
+  

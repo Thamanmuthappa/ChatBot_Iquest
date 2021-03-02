@@ -90,3 +90,13 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: Iquest
+  examples:
+    - What is Iquest
+    - Inform me about Iquest
+    - What is Iquest all about
+
+
+
+

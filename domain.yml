@@ -8,10 +8,14 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - Iquest
+
+actions:
+  - utter_greet
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "How are you?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -28,6 +32,16 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_Find_more:
+  - text: "You can find out more about us here:"
+
+  utter_Link_Website:
+  - text: "<Insert Website Path here>"
+
+  utter_link_ig:
+  -text: "https://www.instagram.com/iquest.vit/"
+
 
 session_config:
   session_expiration_time: 60
